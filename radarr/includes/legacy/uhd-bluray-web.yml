@@ -2,7 +2,7 @@ quality_definition:
   type: movie
 
 quality_profiles:
-  - name: UHD Bluray + WEB
+  - name: Ultra-HD
     reset_unmatched_scores:
       enabled: true
     upgrade:
