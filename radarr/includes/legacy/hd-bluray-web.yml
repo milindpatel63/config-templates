@@ -17,6 +17,7 @@ quality_profiles:
         qualities:
           - WEBDL-1080p
           - WEBRip-1080p
+      - name: HDTV-1080p
       #- name: Bluray-720p
   - name: HD-1080p-Hindi
     reset_unmatched_scores:
@@ -33,6 +34,7 @@ quality_profiles:
         qualities:
           - WEBDL-1080p
           - WEBRip-1080p
+      - name: HDTV-1080p
       #- name: Bluray-720p
 
 custom_formats:
