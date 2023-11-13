@@ -2,7 +2,7 @@ quality_definition:
   type: movie
 
 quality_profiles:
-  - name: HD Bluray + WEB
+  - name: HD-1080p
     reset_unmatched_scores:
       enabled: true
     upgrade:
@@ -17,7 +17,23 @@ quality_profiles:
         qualities:
           - WEBDL-1080p
           - WEBRip-1080p
-      - name: Bluray-720p
+      #- name: Bluray-720p
+  - name: HD-1080p-Hindi
+    reset_unmatched_scores:
+      enabled: true
+    upgrade:
+      allowed: true
+      until_quality: Bluray-1080p
+      until_score: 10000
+    min_format_score: 0
+    quality_sort: top
+    qualities:
+      - name: Bluray-1080p
+      - name: WEB 1080p
+        qualities:
+          - WEBDL-1080p
+          - WEBRip-1080p
+      #- name: Bluray-720p
 
 custom_formats:
   - trash_ids:
@@ -55,7 +71,8 @@ custom_formats:
       - 16622a6911d1ab5d5b8b713d5b0036d4 # CRiT
       - 2a6039655313bf5dab1e43523b62c374 # MA
     quality_profiles:
-      - name: HD Bluray + WEB
+      - name: HD-1080p
+      - name: HD-1080p-Hindi
 
   - trash_ids:
       - b3b3a6ac74ecbd56bcdbefa4799fb9df # AMZN
@@ -73,5 +90,7 @@ custom_formats:
       - e36a0ba1bc902b26ee40818a1d59b8bd # PMTP
       - c2863d2a50c9acad1fb50e53ece60817 # STAN
     quality_profiles:
-      - name: HD Bluray + WEB
+      - name: HD-1080p
+        score: 0
+      - name: HD-1080p-Hindi
         score: 0
