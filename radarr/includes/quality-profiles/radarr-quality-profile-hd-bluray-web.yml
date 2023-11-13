@@ -1,5 +1,5 @@
 quality_profiles:
-  - name: HD Bluray + WEB
+  - name: HD-1080p
     reset_unmatched_scores:
       enabled: true
     upgrade:
@@ -14,4 +14,20 @@ quality_profiles:
         qualities:
           - WEBDL-1080p
           - WEBRip-1080p
-      - name: Bluray-720p
+      #- name: Bluray-720p
+  - name: HD-1080p-Hindi
+    reset_unmatched_scores:
+      enabled: true
+    upgrade:
+      allowed: true
+      until_quality: Bluray-1080p
+      until_score: 10000
+    min_format_score: 0
+    quality_sort: top
+    qualities:
+      - name: Bluray-1080p
+      - name: WEB 1080p
+        qualities:
+          - WEBDL-1080p
+          - WEBRip-1080p
+      #- name: Bluray-720p
