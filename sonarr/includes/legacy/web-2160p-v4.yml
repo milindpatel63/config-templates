@@ -6,24 +6,11 @@ quality_profiles:
     reset_unmatched_scores:
       enabled: true
       except:
-        - Dual Audio English/Hindi
-    upgrade:
-      allowed: true
-      until_quality: WEB 2160p
-      until_score: 10000
-    min_format_score: 0
-    quality_sort: top
-    qualities:
-      - name: WEB 2160p
-        qualities:
-          - WEBDL-2160p
-          - WEBRip-2160p
-      - name: HDTV-2160p
-  - name: Ultra-HD-Hindi
-    reset_unmatched_scores:
-      enabled: true
-      except:
-        - Dual Audio English/Hindi
+        - Prefer Dual English/Hindi
+        - Prefer Dual English/Japanese
+        - Prefer English
+        - Prefer Hindi
+        - Prefer Japanese
     upgrade:
       allowed: true
       until_quality: WEB 2160p
@@ -97,4 +84,3 @@ custom_formats:
       - d0c516558625b04b363fa6c5c2c7cfd4 # WEB Scene
     quality_profiles:
       - name: Ultra-HD
-      - name: Ultra-HD-Hindi

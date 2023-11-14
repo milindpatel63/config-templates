@@ -6,25 +6,11 @@ quality_profiles:
     reset_unmatched_scores:
       enabled: true
       except:
-        - Dual Audio English/Hindi
-    upgrade:
-      allowed: true
-      until_quality: Bluray-2160p
-      until_score: 10000
-    min_format_score: 0
-    quality_sort: top
-    qualities:
-      - name: Bluray-2160p
-      - name: WEB 2160p
-        qualities:
-          - WEBDL-2160p
-          - WEBRip-2160p
-      - name: HDTV-2160p
-  - name: Ultra-HD-Hindi
-    reset_unmatched_scores:
-      enabled: true
-      except:
-        - Dual Audio English/Hindi
+        - Prefer Dual English/Hindi
+        - Prefer Dual English/Japanese
+        - Prefer English
+        - Prefer Hindi
+        - Prefer Japanese
     upgrade:
       allowed: true
       until_quality: Bluray-2160p
@@ -92,7 +78,6 @@ custom_formats:
       - 2a6039655313bf5dab1e43523b62c374 # MA
     quality_profiles:
       - name: Ultra-HD
-      - name: Ultra-HD-Hindi
 
   - trash_ids:
       - b3b3a6ac74ecbd56bcdbefa4799fb9df # AMZN
@@ -111,4 +96,3 @@ custom_formats:
       - c2863d2a50c9acad1fb50e53ece60817 # STAN
     quality_profiles:
       - name: Ultra-HD
-      - name: Ultra-HD-Hindi

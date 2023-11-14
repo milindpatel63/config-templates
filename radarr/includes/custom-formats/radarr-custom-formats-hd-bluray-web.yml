@@ -56,5 +56,3 @@ custom_formats:
     quality_profiles:
       - name: HD-1080p
         score: 0
-      - name: HD-1080p-Hindi
-        score: 0

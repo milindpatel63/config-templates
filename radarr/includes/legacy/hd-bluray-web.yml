@@ -6,26 +6,11 @@ quality_profiles:
     reset_unmatched_scores:
       enabled: true
       except:
-        - Dual Audio English/Hindi
-    upgrade:
-      allowed: true
-      until_quality: Bluray-1080p
-      until_score: 10000
-    min_format_score: 0
-    quality_sort: top
-    qualities:
-      - name: Bluray-1080p
-      - name: WEB 1080p
-        qualities:
-          - WEBDL-1080p
-          - WEBRip-1080p
-      - name: HDTV-1080p
-      #- name: Bluray-720p
-  - name: HD-1080p-Hindi
-    reset_unmatched_scores:
-      enabled: true
-      except:
-        - Dual Audio English/Hindi
+        - Prefer Dual English/Hindi
+        - Prefer Dual English/Japanese
+        - Prefer English
+        - Prefer Hindi
+        - Prefer Japanese
     upgrade:
       allowed: true
       until_quality: Bluray-1080p
@@ -78,7 +63,6 @@ custom_formats:
       - 2a6039655313bf5dab1e43523b62c374 # MA
     quality_profiles:
       - name: HD-1080p
-      - name: HD-1080p-Hindi
 
   - trash_ids:
       - b3b3a6ac74ecbd56bcdbefa4799fb9df # AMZN
@@ -97,6 +81,4 @@ custom_formats:
       - c2863d2a50c9acad1fb50e53ece60817 # STAN
     quality_profiles:
       - name: HD-1080p
-        score: 0
-      - name: HD-1080p-Hindi
         score: 0

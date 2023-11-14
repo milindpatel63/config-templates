@@ -6,7 +6,11 @@ quality_profiles:
     reset_unmatched_scores:
       enabled: true
       except:
-        - Dual Audio English/Hindi
+        - Prefer Dual English/Hindi
+        - Prefer Dual English/Japanese
+        - Prefer English
+        - Prefer Hindi
+        - Prefer Japanese
     upgrade:
       allowed: true
       until_quality: Remux-1080p

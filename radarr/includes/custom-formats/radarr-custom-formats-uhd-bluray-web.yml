@@ -51,7 +51,6 @@ custom_formats:
       - 2a6039655313bf5dab1e43523b62c374 # MA
     quality_profiles:
       - name: Ultra-HD
-      - name: Ultra-HD-Hindi
 
   - trash_ids:
       # Streaming Services
@@ -71,4 +70,3 @@ custom_formats:
       - c2863d2a50c9acad1fb50e53ece60817 # STAN
     quality_profiles:
       - name: Ultra-HD
-      - name: Ultra-HD-Hindi
