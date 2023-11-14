@@ -1,7 +1,9 @@
 quality_profiles:
-  - name: WEB-1080p
+  - name: HD-1080p
     reset_unmatched_scores:
       enabled: true
+      except:
+        - Dual Audio English/Hindi
     upgrade:
       allowed: true
       until_quality: WEB 1080p
@@ -13,3 +15,21 @@ quality_profiles:
         qualities:
           - WEBDL-1080p
           - WEBRip-1080p
+      - name: HDTV-1080p
+  - name: HD-1080p-Hindi
+    reset_unmatched_scores:
+      enabled: true
+      except:
+        - Dual Audio English/Hindi
+    upgrade:
+      allowed: true
+      until_quality: WEB 1080p
+      until_score: 10000
+    min_format_score: 0
+    quality_sort: top
+    qualities:
+      - name: WEB 1080p
+        qualities:
+          - WEBDL-1080p
+          - WEBRip-1080p
+      - name: HDTV-1080p
