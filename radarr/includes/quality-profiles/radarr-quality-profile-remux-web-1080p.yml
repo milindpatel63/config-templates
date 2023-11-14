@@ -2,6 +2,8 @@ quality_profiles:
   - name: Remux + WEB 1080p
     reset_unmatched_scores:
       enabled: true
+      except:
+        - Dual Audio English/Hindi
     upgrade:
       allowed: true
       until_quality: Remux-1080p

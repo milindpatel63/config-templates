@@ -2,6 +2,8 @@ quality_profiles:
   - name: HD-1080p
     reset_unmatched_scores:
       enabled: true
+      except:
+        - Dual Audio English/Hindi
     upgrade:
       allowed: true
       until_quality: Bluray-1080p
@@ -19,6 +21,8 @@ quality_profiles:
   - name: HD-1080p-Hindi
     reset_unmatched_scores:
       enabled: true
+      except:
+        - Dual Audio English/Hindi
     upgrade:
       allowed: true
       until_quality: Bluray-1080p
