@@ -36,7 +36,6 @@ custom_formats:
       - 2a6039655313bf5dab1e43523b62c374 # MA
     quality_profiles:
       - name: HD-1080p
-      - name: HD-1080p-Hindi
 
   - trash_ids:
       # Streaming Services
