@@ -2,7 +2,7 @@ quality_definition:
   type: movie
 
 quality_profiles:
-  - name: Ultra-HD
+  - name: Ultra-HD-HQ
     reset_unmatched_scores:
       enabled: true
       except:
@@ -78,7 +78,7 @@ custom_formats:
       - 16622a6911d1ab5d5b8b713d5b0036d4 # CRiT
       - 2a6039655313bf5dab1e43523b62c374 # MA
     quality_profiles:
-      - name: Ultra-HD
+      - name: Ultra-HD-HQ
 
   - trash_ids:
       - b3b3a6ac74ecbd56bcdbefa4799fb9df # AMZN
@@ -99,4 +99,4 @@ custom_formats:
       - f1b0bae9bc222dab32c1b38b5a7a1088 # TVer
       - 279bda7434fd9075786de274e6c3c202 # U-NEXT
     quality_profiles:
-      - name: Ultra-HD
+      - name: Ultra-HD-HQ

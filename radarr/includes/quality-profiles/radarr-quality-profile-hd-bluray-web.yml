@@ -1,5 +1,5 @@
 quality_profiles:
-  - name: HD-1080p
+  - name: HD-1080p-HQ
     reset_unmatched_scores:
       enabled: true
       except:

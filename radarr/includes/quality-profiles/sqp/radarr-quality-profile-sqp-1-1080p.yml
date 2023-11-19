@@ -1,7 +1,13 @@
 quality_profiles:
-  - name: SQP-1 (1080p)
+  - name: HD-1080p
     reset_unmatched_scores:
       enabled: true
+      except:
+        - Prefer Dual English/Hindi
+        - Prefer Dual English/Japanese
+        - Prefer English
+        - Prefer Hindi
+        - Prefer Japanese
     upgrade:
       allowed: true
       until_quality: Bluray|WEB-1080p

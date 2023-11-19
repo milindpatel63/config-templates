@@ -74,7 +74,7 @@ custom_formats:
       - 16622a6911d1ab5d5b8b713d5b0036d4 # CRiT
       - 2a6039655313bf5dab1e43523b62c374 # MA
     quality_profiles:
-      - name: SQP-1 (2160p)
+      - name: Ultra-HD
 
   - trash_ids:
       - b3b3a6ac74ecbd56bcdbefa4799fb9df # AMZN
@@ -92,5 +92,5 @@ custom_formats:
       - e36a0ba1bc902b26ee40818a1d59b8bd # PMTP
       - c2863d2a50c9acad1fb50e53ece60817 # STAN
     quality_profiles:
-      - name: SQP-1 (2160p)
+      - name: Ultra-HD
         score: 0

@@ -1,7 +1,13 @@
 quality_profiles:
-  - name: SQP-1 (2160p)
+  - name: Ultra-HD
     reset_unmatched_scores:
       enabled: true
+      except:
+        - Prefer Dual English/Hindi
+        - Prefer Dual English/Japanese
+        - Prefer English
+        - Prefer Hindi
+        - Prefer Japanese
     upgrade:
       allowed: true
       until_quality: Bluray|WEB-2160p

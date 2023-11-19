@@ -14,7 +14,7 @@ radarr:
     api_key: Put your API key here
 
     quality_profiles:
-      - name: SQP-1 (1080p)
+      - name: HD-1080p
       # Uncomment the below line if you don't have access to top-tier indexers
       # min_format_score: 10
 
@@ -41,4 +41,4 @@ radarr:
           # - 0a3f082873eb454bde444150b70253cc # Extras
           # - bfd8eb01832d646a0a89c4deb46f8564 # Upscaled
         quality_profiles:
-          - name: SQP-1 (1080p)
+          - name: HD-1080p

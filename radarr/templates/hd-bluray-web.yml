@@ -24,6 +24,5 @@ radarr:
       - trash_ids:
           - 9f6cbff8cfe4ebbc1bde14c7b7bec0de # IMAX Enhanced
         quality_profiles:
-          - name: HD-1080p
+          - name: HD-1080p-HQ
             # score: 0 # Uncomment this line to disable prioritised IMAX Enhanced releases
-          - name: HD-1080p-Hindi

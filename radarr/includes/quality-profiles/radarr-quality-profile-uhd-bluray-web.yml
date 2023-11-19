@@ -1,5 +1,5 @@
 quality_profiles:
-  - name: Ultra-HD
+  - name: Ultra-HD-HQ
     reset_unmatched_scores:
       enabled: true
       except:

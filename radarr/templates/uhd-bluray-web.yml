@@ -39,15 +39,13 @@ radarr:
           # - 240770601cc226190c367ef59aba7463 # AAC
           # - c2998bd0d90ed5621d8df281e839436e # DD
         quality_profiles:
-          - name: Ultra-HD
-          - name: Ultra-HD-Hindi
+          - name: Ultra-HD-HQ
 
       # Movie Versions
       - trash_ids:
           - 9f6cbff8cfe4ebbc1bde14c7b7bec0de # IMAX Enhanced
         quality_profiles:
-          - name: Ultra-HD
-          - name: Ultra-HD-Hindi
+          - name: Ultra-HD-HQ
             # score: 0 # Uncomment this line to disable prioritised IMAX Enhanced releases
 
       # Optional
@@ -57,12 +55,10 @@ radarr:
           # HDR10Plus Boost - Uncomment the next line if any of your devices DO support HDR10+
           # - b17886cb4158d9fea189859409975758 # HDR10Plus Boost
         quality_profiles:
-          - name: Ultra-HD
-          - name: Ultra-HD-Hindi
+          - name: Ultra-HD-HQ
 
       - trash_ids:
           - 9c38ebb7384dada637be8899efa68e6f # SDR
         quality_profiles:
-          - name: Ultra-HD
-          - name: Ultra-HD-Hindi
+          - name: Ultra-HD-HQ
             # score: 0 # Uncomment this line to allow SDR releases
