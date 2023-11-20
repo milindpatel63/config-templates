@@ -8,6 +8,7 @@ quality_profiles:
         - Prefer English
         - Prefer Hindi
         - Prefer Japanese
+        - Prefer YTS/YIFY
     upgrade:
       allowed: true
       until_quality: Bluray-1080p
