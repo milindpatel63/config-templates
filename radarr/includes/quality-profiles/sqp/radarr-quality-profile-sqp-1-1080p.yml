@@ -10,7 +10,7 @@ quality_profiles:
         - Prefer Japanese
         - Prefer YTS/YIFY
         - Prefer Tigole
-        - Prefer x265 (HD)
+        - 'Prefer x265 (HD)'
     upgrade:
       allowed: true
       until_quality: Bluray|WEB-1080p

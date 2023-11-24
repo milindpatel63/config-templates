@@ -12,7 +12,7 @@ quality_profiles:
         - Prefer Hindi
         - Prefer Japanese
         - Prefer Tigole
-        - Prefer x265 (HD)
+        - 'Prefer x265 (HD)'
     upgrade:
       allowed: true
       until_quality: WEB 2160p
