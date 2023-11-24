@@ -9,6 +9,8 @@ quality_profiles:
         - Prefer Hindi
         - Prefer Japanese
         - Prefer YTS/YIFY
+        - Prefer Tigole
+        - Prefer x265 (HD)
     upgrade:
       allowed: true
       until_quality: Bluray-1080p
