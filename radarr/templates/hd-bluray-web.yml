@@ -36,7 +36,7 @@ radarr:
           # - 5c44f52a8714fdd79bb4d98e2673be1f # Retags
           # - f537cf427b64c38c8e36298f657e4828 # Scene
         quality_profiles:
-          - name: HD Bluray + WEB
+          - name: HD-1080p-HQ
 
       - trash_ids:
           # Uncomment the next six lines to allow x265 HD releases with HDR/DV
@@ -47,4 +47,4 @@ radarr:
       # - trash_ids:
           # - 839bea857ed2c0a8e084f3cbdbd65ecb # x265 (no HDR/DV)
         quality_profiles:
-          - name: HD Bluray + WEB
+          - name: HD-1080p-HQ
