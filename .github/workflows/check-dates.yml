@@ -9,11 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Get Changed Files
         id: files
-        uses: tj-actions/changed-files@v39
+        uses: tj-actions/changed-files@v44
         with:
           separator: ","
 
