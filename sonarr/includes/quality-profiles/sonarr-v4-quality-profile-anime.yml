@@ -20,7 +20,6 @@ quality_profiles:
     qualities:
       - name: Bluray-1080p
         qualities:
-          - Bluray-1080p Remux
           - Bluray-1080p
       - name: WEB 1080p
         qualities:
