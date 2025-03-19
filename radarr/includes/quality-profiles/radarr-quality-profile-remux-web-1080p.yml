@@ -11,6 +11,8 @@ quality_profiles:
         - Prefer YTS/YIFY
         - Prefer Tigole
         - 'Prefer x265 (HD)'
+        - PSA
+        - BONE
     upgrade:
       allowed: true
       until_quality: Remux-1080p
