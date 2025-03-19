@@ -13,17 +13,15 @@ quality_profiles:
         - 'Prefer x265 (HD)'
     upgrade:
       allowed: true
-      until_quality: Bluray|WEB-1080p
+      until_quality: Bluray-1080p
       until_score: 10000
-    min_format_score: 1000
+    min_format_score: 0
     score_set: sqp-1-1080p
     quality_sort: top
     qualities:
-      - name: Bluray|WEB-1080p
+      - name: Bluray-1080p
+      - name: WEB 1080p
         qualities:
-          - Bluray-1080p
           - WEBDL-1080p
           - WEBRip-1080p
-      #     - WEBDL-720p
-      #     - WEBRip-720p
-      # - name: Bluray-720p
+      - name: HDTV-1080p
