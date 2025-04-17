@@ -15,7 +15,7 @@ radarr:
 
     include:
       # Comment out any of the following includes to disable them
-      - template: radarr-quality-definition-movie
+      - template: radarr-quality-definition-anime
       - template: radarr-quality-profile-anime
       - template: radarr-custom-formats-anime
 
