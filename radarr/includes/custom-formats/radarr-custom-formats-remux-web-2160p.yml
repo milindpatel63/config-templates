@@ -2,6 +2,9 @@ custom_formats:
   - trash_ids:
       # Unified HDR
       - 493b6d1dbec3c3364c59d7607f7e3405 # HDR
+      
+      # DV Boost - Uncomment the DV Boost line if you want to prefer DV releases
+      - b337d6812e06c200ec9a2d3cfa9d20a7 # DV Boost
 
       # HQ Release Groups
       - 3a3ff47579026e76d6504ebea39390de # Remux Tier 01
