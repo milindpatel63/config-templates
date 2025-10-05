@@ -56,5 +56,5 @@ custom_formats:
       # DV Boost - Uncomment the DV Boost line if you want to prefer DV releases
       - b337d6812e06c200ec9a2d3cfa9d20a7 # DV Boost
     assign_scores_to:
-      - name: Remux + WEB 2160p
+      - name: Ultra-HD-HQ
         score: 12000
