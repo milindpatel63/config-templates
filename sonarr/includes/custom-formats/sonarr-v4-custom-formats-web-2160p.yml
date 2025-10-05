@@ -44,3 +44,9 @@ custom_formats:
       - d0c516558625b04b363fa6c5c2c7cfd4 # WEB Scene
     assign_scores_to:
       - name: Ultra-HD
+
+  - trash_ids:
+      - 7c3a61a9c6cb04f52f1544be6d44a026 # DV Boost
+    assign_scores_to:
+      - name: Ultra-HD
+        score: 12000
