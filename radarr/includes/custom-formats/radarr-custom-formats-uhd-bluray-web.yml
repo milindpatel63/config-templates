@@ -2,9 +2,6 @@ custom_formats:
   - trash_ids:
       # Unified HDR
       - 493b6d1dbec3c3364c59d7607f7e3405 # HDR
-      
-      # DV Boost - Uncomment the DV Boost line if you want to prefer DV releases
-      - b337d6812e06c200ec9a2d3cfa9d20a7 # DV Boost
 
       # HQ Release Groups
       - 4d74ac4c4db0b64bff6ce0cffef99bf0 # UHD Bluray Tier 01
@@ -54,3 +51,10 @@ custom_formats:
       - c2863d2a50c9acad1fb50e53ece60817 # STAN
     assign_scores_to:
       - name: Ultra-HD-HQ
+
+  - trash_ids:
+      # DV Boost - Uncomment the DV Boost line if you want to prefer DV releases
+      - b337d6812e06c200ec9a2d3cfa9d20a7 # DV Boost
+    assign_scores_to:
+      - name: Remux + WEB 2160p
+        score: 12000
