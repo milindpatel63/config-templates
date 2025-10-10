@@ -2,7 +2,10 @@ custom_formats:
   - trash_ids:
       # Unified HDR
       - 505d871304820ba7106b693be6fe4a9e # HDR
-
+      - 7c3a61a9c6cb04f52f1544be6d44a026 # DV Boost
+      # Comment out the next line if you and all of your users' setups are fully DV compatible
+      - 9b27ab6498ec0f31a3353992e19434ca # DV (w/o HDR fallback)
+      
       # Unwanted
       - 85c61753df5da1fb2aab6f2a47426b09 # BR-DISK
       - 9c11cd3f07101cdba90a2d81cf0e56b4 # LQ
@@ -45,8 +48,8 @@ custom_formats:
     assign_scores_to:
       - name: Ultra-HD
 
-  - trash_ids:
-      - 7c3a61a9c6cb04f52f1544be6d44a026 # DV Boost
-    assign_scores_to:
-      - name: Ultra-HD
-        score: 12000
+  # - trash_ids:
+  #     - 7c3a61a9c6cb04f52f1544be6d44a026 # DV Boost
+  #   assign_scores_to:
+  #     - name: Ultra-HD
+  #       score: 12000
